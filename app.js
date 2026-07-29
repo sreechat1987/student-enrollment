@@ -1,5 +1,5 @@
 // Replace this with your actual Cloudflare Worker URL
-const API_URL = "https://student-enroll-api.chatsree9.workers.dev/"; 
+const API_URL = "https://student-enroll-api.chatsree9.workers.dev"; 
 
 document.getElementById('enrollForm').addEventListener('submit', async (e) => {
     e.preventDefault();
